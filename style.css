@@ -1,0 +1,105 @@
+Body{
+      background-color: black;
+      
+      text-align:center;
+      }
+input[type=text],input[type=search], input[type=number],input[type=password] {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius:20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.home{
+  padding:15px;
+  width:90%; 
+  
+}
+.book{
+ color:white;  
+ background-color:green; 
+ border-radius:20px;
+}
+.call{
+   color:white;  
+   background-color:blue;  
+   border-radius:20px;
+}
+.emailus{
+   color:white;  
+   background-color:orange;  
+   border-radius:20px;
+}
+ul li{
+    display:inline-block ;
+}
+h2,h3,p,li{
+    color:white;
+}
+.doc img{
+width:260px;
+height:200px;
+padding:10px;
+border-radius:25px;
+}
+.tab{
+ text-align:center;   
+}
+.tabs{
+display:inline;
+text-decoration:none;
+ list-style: none;
+ background-color:white;
+color:purple;
+padding:5px;
+border-radius:10px;
+cursor:pointer;
+}
+.tabs:hover{
+background-color:purple;
+color:white;
+
+ padding:5px;
+border-radius:10px;
+}
+button {
+  background-color: purple;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 60%;
+  border-radius:25px;
+}
+.appoint{
+}
+.appo{
+ background-color:green;  
+ border-radius:20px; 
+
+ 
+}
+button:hover {
+  opacity: 0.8;
+}
+
+.psw{
+text-align:center;
+cursor:pointer;
+}
+
+.mobile{
+    width:100%;
+    bottom:0;
+   background-color:purple;
+    display:flex;
+    position:fixed;
+    
+}
+.app{
+    background-color:gray;
+    border-radius:20px;
+}
